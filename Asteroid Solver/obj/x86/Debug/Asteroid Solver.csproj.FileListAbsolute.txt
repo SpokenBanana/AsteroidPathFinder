@@ -8,7 +8,6 @@ C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solv
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\SharpDX.Direct3D11.dll
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\SharpDX.DXGI.dll
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\SharpDX.Direct2D1.dll
-C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\Lidgren.Network.dll
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\SharpDX.XInput.dll
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\SharpDX.RawInput.dll
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\SharpDX.Direct3D9.dll
@@ -26,3 +25,4 @@ C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solv
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\obj\x86\Debug\Asteroid Solver.pdb
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\Content\button.PNG
 C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\Content\SpriteFont1.xnb
+C:\Users\David\Desktop\Projects\DailyProgrammer\C#\Asteroid Solver\Asteroid Solver\bin\Windows\Debug\MonoGame.Framework.xml

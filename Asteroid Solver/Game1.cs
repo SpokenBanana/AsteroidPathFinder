@@ -6,7 +6,6 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.GamerServices;
 #endregion
 
 namespace Asteroid_Solver
@@ -35,7 +34,6 @@ namespace Asteroid_Solver
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
 	        graphics.PreferredBackBufferHeight = 12*50;
 	        graphics.PreferredBackBufferWidth = 12*70;
 	        this.IsMouseVisible = true;
@@ -53,7 +51,6 @@ namespace Asteroid_Solver
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
         }
 
         /// <summary>
@@ -62,7 +59,6 @@ namespace Asteroid_Solver
         /// </summary>
         protected override void UnloadContent()
         {
-            // TODO: Unload any non ContentManager content here
         }
 
         /// <summary>

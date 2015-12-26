@@ -58,7 +58,7 @@ namespace Asteroid_Solver
 				// check its neighbors and how far they are
 				foreach (var neighbor in _space.GetNeighbors(current))
 				{
-					double newCost = _costSoFar[current];
+					double newCost = _costSoFar[current] + _space.Distance(neighbor.X, neighbor.Y, current.X, current.Y);;
 					if ((!_costSoFar.ContainsKey(neighbor) || newCost < _costSoFar[neighbor]) && _space.GetTile(neighbor.X, neighbor.Y).Content == Space.Empty)
 				    {
 					    _costSoFar[neighbor] = newCost;
@@ -104,10 +104,10 @@ namespace Asteroid_Solver
 							color = Color.Yellow;
 							break;
 						case Space.Well:
-							color = Color.Black;
+							color = Color.Orange;
 							break;
 						case Space.Asteroid:
-							color = Color.Violet;
+							color = Color.Gray;
 							break;
 					}
 					var pathPoint = new Point(i, j);
@@ -117,15 +117,15 @@ namespace Asteroid_Solver
 					// draw visited locations
 					if (_space.GetTile(pathPoint.X, pathPoint.Y).Visited)
 					{
-						color = Color.Red;
-						context.Draw(_blank, new Rectangle(i * CellSize, j * CellSize, CellSize, CellSize), color * 0.5f);
+						color = Color.CornflowerBlue;
+						context.Draw(_blank, new Rectangle(i * CellSize, j * CellSize, CellSize, CellSize), color);
 					}
 
 					// draw path
 					if (_path.Any(path => path.Equals(pathPoint)))
 					{
 						color = Color.Green;
-						context.Draw(_blank, new Rectangle(i * CellSize, j * CellSize, CellSize, CellSize), color * 0.9f);
+						context.Draw(_blank, new Rectangle(i * CellSize, j * CellSize, CellSize, CellSize), color);
 					}
 
 					// draw start and end points

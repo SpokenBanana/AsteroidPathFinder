@@ -5,4 +5,4 @@ A solution for the problem from reddit's /r/DailyProgrammer (http://www.reddit.c
 
 The two blue sqaures represent the start and end of the maze, and we can only travel through white blocks. Green tiles represent the final path, and the red ones represent tiles we've searched through.
 
-![screenshot](http://i.imgur.com/o8PZGj6.png)
+![screenshot](http://i.imgur.com/Hk29Na3.png)
